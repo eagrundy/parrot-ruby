@@ -8,10 +8,14 @@ def parrot
     "Squawk"
 end
 
+parrot
+
 def parrot(phrase = "Squawk!")
     puts phrase
     return phrase
 end
+
+parrot
 
 
 def parrot(phrase = "Pretty bird!")
@@ -19,7 +23,19 @@ def parrot(phrase = "Pretty bird!")
     phrase
 end
 
+parrot
+
+
+def parrot(phrase)
+    puts "Pretty bird!"
+    "Pretty bird"
+end
+
+parrot("Pretty bird!")
+
 def parrot(phrase = "Squawk!")
     puts phrase
     phrase
 end
+
+parrot
